@@ -1,0 +1,198 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+/* for mobile */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* header starts  */
+header {
+    background-color: rgb(49, 2, 49);
+    padding: 0% 1%;
+    text-align: center;
+}
+
+.material-icons {}
+
+.nav-logo-img {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+.nav-menu {}
+
+.nav-menu ul {}
+
+.nav-menu ul li {
+    display: block;
+}
+
+.nav-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.nav-menu ul li a:hover {
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.navbar::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header ends  */
+
+/* main starts  */
+.main {}
+
+#banner-section {
+    background-image: url('/assets/images/background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    padding: 50px 10px;
+    text-align: center;
+}
+
+
+.banner-content h1 {
+    width: 100%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background-color: rgb(0, 255, 255, .86);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Marck Script', cursive;
+}
+
+.banner-content p {
+    width: 300px;
+    margin: 15px auto;
+    background-color: rgb(103, 151, 30, 0.86);
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    width: 160px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(47, 73, 8, 0.4);
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+/* main ends  */
+
+/* about-us starts  */
+#about-us {
+    padding: 1%;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+.about-us-content h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.about-us-content p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* food-menu starts  */
+#food-menu {
+    padding: 1%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item-desc {
+    background-color: gray;
+}
+
+.item-name {
+    background-color: rgb(199, 62, 85);
+    color: white;
+    padding: 10px;
+}
+
+.item-desc>p {
+    font-size: 0.8rem;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card {
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* food-menu ends  */
+.contact-us {}
+
+/* main ends  */
