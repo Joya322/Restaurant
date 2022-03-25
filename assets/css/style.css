@@ -55,6 +55,7 @@ header {
 
 .nav-menu ul li {
     display: block;
+    padding: 5px;
 }
 
 .nav-menu ul li a {
@@ -62,9 +63,12 @@ header {
     text-decoration: none;
     color: white;
     line-height: 40px;
-    padding: 0 20px;
+    padding: 5px 20px;
     text-transform: uppercase;
     font-size: 0.9rem;
+    background-color: blueviolet;
+    border-radius: 15px;
+    
 }
 
 .nav-menu ul li a:hover {
@@ -160,10 +164,11 @@ header {
 
 .card-body {
     text-align: center;
+    max-width: 100%;
 }
 
 .card-body img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -193,6 +198,65 @@ header {
 }
 
 /* food-menu ends  */
-.contact-us {}
+
+/* contact starts */
+#contact-us {
+    padding: 1%;
+    background-color: rgb(253, 222, 182);
+}
+
+.map {
+    width: 100%;
+    height: 250px;
+}
+
+.contact-details {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-details>p,
+address {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+/* contact ends */
 
 /* main ends  */
+
+/* footer starts */
+footer {
+    padding: 1%;
+    background-color: rgb(120, 44, 192);
+    color: white;
+}
+
+footer p {
+    line-height: 30px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icon-styles {
+    color: white;
+    font-size: 1.2rem;
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    transition: .4s;
+}
+
+.icon-styles:hover {
+    background-color: blue;
+    transform: scale(1.2);
+}
+    /* footer ends */

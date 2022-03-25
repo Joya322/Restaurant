@@ -45,3 +45,36 @@
 .col-lg-12 {
     width: 100%;
 }
+
+/* header starts */
+.nav-logo {
+    text-align: left;
+    padding: 20px;
+}
+
+.nav-logo-img {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    padding: 30px;
+}
+
+.nav-menu ul {
+    text-align: right;
+    padding: 10px;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+}
+
+.nav-menu ul li a {
+    display: inline-block;
+    font-size: 1.02rem;
+    background-color: transparent;
+}
+
+/* header ends */
