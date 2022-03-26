@@ -89,7 +89,7 @@ header {
 
 /* banner starts  */
 #banner-section {
-    background-image: url("/assets/images/background.jpg");
+    background-image: url("/./assets/images/background.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -107,6 +107,7 @@ header {
     margin: 15px auto;
     font-size: 3rem;
     background-color: rgb(0, 255, 255, .86);
+    color: white;
     border-radius: 5px;
     padding: 10px;
     font-family: 'Marck Script', cursive;
