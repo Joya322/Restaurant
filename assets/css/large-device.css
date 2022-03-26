@@ -75,6 +75,66 @@
     display: inline-block;
     font-size: 1.02rem;
     background-color: transparent;
+    transition: .4s;
 }
 
+.nav-menu ul li a:hover {
+    transform: scale(1.2);
+    background-color: rgb(0, 0, 0, 0.5);
+}
 /* header ends */
+
+/* banner starts  */
+#banner-section {
+    position: relative;
+    height: 100vh;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.banner-content h1 {
+    width: 700px;
+    font-size: 3.5rem;
+}
+
+.banner-content p {
+    width: 500px;
+    font-size: 2rem;
+}
+/* banner ends  */
+
+/* footer starts */
+footer p {
+    line-height: 30px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.icons {
+    text-align: right;
+}
+
+.icon-styles {
+    color: white;
+    font-size: 1.2rem;
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    transition: .4s;
+}
+
+.icon-styles:hover {
+    background-color: blue;
+    transform: scale(1.2);
+}
+/* footer ends */

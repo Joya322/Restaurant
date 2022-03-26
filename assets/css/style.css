@@ -87,6 +87,7 @@ header {
 /* main starts  */
 .main {}
 
+/* banner starts  */
 #banner-section {
     background-image: url('/assets/images/background.jpg');
     background-position: center;
@@ -115,6 +116,7 @@ header {
     width: 300px;
     margin: 15px auto;
     background-color: rgb(103, 151, 30, 0.86);
+    color: white;
     padding: 10px;
     font-size: 1.5rem;
 }
@@ -125,7 +127,8 @@ header {
     font-size: 1.3rem;
     border: none;
     border-radius: 5px;
-    background-color: rgba(47, 73, 8, 0.4);
+    background-color: rgba(47, 73, 8, 0.9);
+    color: white;
     text-transform: capitalize;
     transition: .4s;
 }
@@ -133,8 +136,8 @@ header {
 .btn:hover {
     transform: scale(1.2);
 }
+/* banner ends  */
 
-/* main ends  */
 
 /* about-us starts  */
 #about-us {
@@ -156,6 +159,8 @@ header {
     margin-bottom: 10px;
     text-align: justify;
 }
+
+/* about-us ends  */
 
 /* food-menu starts  */
 #food-menu {
