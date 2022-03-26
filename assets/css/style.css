@@ -89,7 +89,7 @@ header {
 
 /* banner starts  */
 #banner-section {
-    background-image: url("/./assets/images/background.jpg");
+    background-image: url("assets/images/background.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
